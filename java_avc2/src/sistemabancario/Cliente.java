@@ -1,6 +1,6 @@
 package sistemabancario;
 
-public class Cliente {
+public class Cliente implements  {
 	String nome;
 	String sobreNome;
 	String cpf;
