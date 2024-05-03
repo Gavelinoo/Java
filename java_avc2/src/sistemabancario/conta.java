@@ -2,8 +2,8 @@ package sistemabancario;
 
 public class Conta {
 	int numero;
-	String nome;
-	double saldo;
+	public String nome;
+	public double saldo;
 	double limite;
 		
 //		void sacar(double valor) {
@@ -20,7 +20,7 @@ public class Conta {
 		}
 	}
 		
-	void depositar(double valor) {
+	public void depositar(double valor) {
 		this.saldo = this.saldo + valor;
 //		this.saldo += valor;
 		
